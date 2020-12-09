@@ -1,0 +1,5 @@
+@use "sass:map";
+.page-header {
+  text-align: center;
+  background-color: map-get($colors, secondary);
+}
