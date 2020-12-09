@@ -1,0 +1,14 @@
+.badge {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 75%;
+    font-weight: map-get($font-weight, medium);
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    &-primary {
+        color: map-get($colors, white);
+        background-color: map-get($colors, primary);
+    }
+}

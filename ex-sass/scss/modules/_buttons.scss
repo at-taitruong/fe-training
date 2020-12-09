@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    font-weight: map-get($font-weight, normal);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid map-get($colors, primary);
+    padding: f-pxRem(12) f-pxRem(16);
+    font-size: f-pxRem(12);
+    line-height: 1.5;
+    &:hover {
+        background-color: map-get($colors, secondary);
+        color: map-get($colors, white);
+    }
+}
+
+.btn-primary {
+    background-color: map-get($colors, white);
+    color: map-get($colors, primary);
+}

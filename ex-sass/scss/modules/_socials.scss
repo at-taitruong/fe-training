@@ -1,0 +1,6 @@
+.fa::before {
+    color: map-get($colors, white);
+}
+.page-footer .fa::before {
+    color: map-get($colors, primary);
+}
